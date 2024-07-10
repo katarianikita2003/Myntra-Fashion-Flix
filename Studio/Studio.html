@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Myntra Fashion Flix</title>
+    <link rel="stylesheet" href="studio.css">
 </head>
 <body>
-    Myntra Fashion Flix
+    <div class="reel-container">
+        <div class="reel">
+            <video class="reel-video" src="reel1.mp4" loop></video>
+            <video class="reel-video" src="reel2.mp4" loop></video>
+            <video class="reel-video" src="reel3.mp4" loop></video>
+            <video class="reel-video" src="reel4.mp4" loop></video>
+            <video class="reel-video" src="reel5.mp4" loop></video>
+            <video class="reel-video" src="reel6.mp4" loop></video>
+            <video class="reel-video" src="reel7.mp4" loop></video>
+            <!-- Add more videos as needed -->
+        </div>
+        <div class="controls">
+            <button id="prev">&uarr;</button> <!-- Up Arrow -->
+            <button id="next">&darr;</button> <!-- Down Arrow -->
+        </div>
+        <button id="plus" class="plus-button">+</button> <!-- Plus Button -->
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <button id="close-popup" class="close-popup">&times;</button>
+            <button id="create-video">Create Video</button>
+            <button id="upload-video">Upload Videos</button>
+        </div>
+    </div>
+
+    <script src="studio.js"></script>
 </body>
 </html>
