@@ -25,7 +25,7 @@ body img{
 /* Menu bar */
 header{
     width: 100%;
-    height: 110px;
+    height: 85px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
     display: flex;
     justify-content: space-around;
@@ -50,7 +50,7 @@ header >* {
     cursor: pointer;
 }
 #nav_bar{
-    width: 36%;
+    width: 60%;
     list-style: none;
     padding: 0;
     text-transform: uppercase;
