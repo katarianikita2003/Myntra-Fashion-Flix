@@ -50,43 +50,44 @@ body {
 }
 
 .card {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .card a {
-    font-size: 18px;
-    text-decoration: none;
-    color: black;
-    margin-left: 15px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  margin-left: 15px;
 }
 
 .card a:hover {
-    text-decoration: underline;
-    color: rgb(27, 46, 140);
+  text-decoration: underline;
+  color: rgb(27, 46, 140);
 }
 
 .card-text {
-    display: flex;
-    flex-direction: row;
-    margin-left: 15px;
-    margin-top: 10px;
-    gap: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  margin-top: 10px;
+  gap: 10px;
 }
 
-.card-text i { 
-    margin-top: 13px;
-    font-size: 28px;
+.card-text i {
+  margin-top: 13px;
+  font-size: 28px;
 }
 
 .card-text p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
-.card-img {
-    margin: 5px 10px;
-    height: 200px;
-    width: 230px;
-    overflow: hidden;
+.card-img1,
+.card-img2 {
+  margin: 5px 10px;
+  height: 200px;
+  width: 230px;
+  overflow: hidden;
 }
 
 /* Center Section */
