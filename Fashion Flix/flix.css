@@ -58,6 +58,22 @@ body {
     display: block;
 }
 
+.like-button {
+    position: absolute;
+    top: 64px;
+    right: 10px; 
+    background: none;
+    border: none;
+    font-size: 33px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.like-button.active {
+    color: #ff4081; /* Pink color when liked */
+}
+
 .controls {
     position: fixed;
     bottom: 25%;
@@ -106,15 +122,6 @@ body {
     color: white;
 }
 
-.like {
-    position: absolute;
-    top: 80px;
-    right: 10px; 
-    cursor: pointer;
-    background: none;
-    border: none;
-    color: white;
-}
 #plus-button {
     position: fixed;
     bottom: 20px;
