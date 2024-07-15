@@ -6,14 +6,31 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #f1dada;
     margin: 0;
+}
+
+#nav_bar{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    box-sizing: border-box;
+    padding: 0.5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;;
+    font-size: 15px;
+    line-height: 20px;
+    color:#545766;
+    font-weight: bold;
 }
 
 .reel-container {
     top: 40px;
     width: 350px;
-    height: 630px;
+    height: 550px;
     position: relative;
     overflow: hidden;
     background-color: #000;
@@ -64,6 +81,7 @@ body {
 .controls button:hover {
     background-color: rgba(94, 93, 93, 0.193);
 }
+  
 
 .shop {
     position: absolute;
@@ -88,6 +106,15 @@ body {
     color: white;
 }
 
+.like {
+    position: absolute;
+    top: 80px;
+    right: 10px; 
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+}
 #plus-button {
     position: fixed;
     bottom: 20px;

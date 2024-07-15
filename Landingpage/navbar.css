@@ -11,21 +11,21 @@ body{
     font-family: var(--primaryFont);
     scroll-behavior: smooth;
 }
-#navbar{
+#nav_bar{
     background-color: white;
-    font-family:Whitney;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 50%;
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-evenly;
     box-sizing: border-box;
-    padding: 35px;
+    padding: 0.5px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 20px;
     color:#545766;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 #myntraIcon{
